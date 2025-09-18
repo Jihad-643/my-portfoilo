@@ -11,7 +11,7 @@
 /* shared style */
 .text-primary
 {
-    color: #FD6E0A ;
+    color: #1897e6 ;
 }
 
 /* header */
@@ -60,16 +60,16 @@ nav ul{
 
 .btn-primary
 {
-    background-color:#FD6E0A;
+    background-color:#1897e6;
     color: white;
     font-weight: bold;
     font-size:20px;
     border-radius: 5px;
     padding: 17px 35px 17px 35px ;
     height: 64px;
-    /* width: 150px; */
+    
     border: none;
-     /* white-space: nowrap;  */
+    
      cursor: pointer;
     
 }
@@ -77,8 +77,8 @@ nav ul{
 
 .banner .btn-color{
     background-color: #FFF8F3;
-    color: #FD6E0A;
-    border: solid #FD6E0A 1px;
+    color: #1897e6;
+    border: solid #1897e6 1px;
     font-weight: bold;
     font-size:20px;
     border-radius: 5px;
@@ -129,7 +129,7 @@ nav ul{
     color: #181818;
     font-size: 35px;
     font-weight: bold;
-    /* text-align: center; */
+   
     
 
 }
@@ -203,7 +203,7 @@ main section{
     gap: 24px;
     margin-top: 50px;
     height: 377px;
-    /* width: 267px; */
+
     
 }
 
@@ -265,7 +265,7 @@ main section{
     color: #181818;
     font-size: 35px;
     font-weight: bold;
-    /* text-align: left; */
+   
    
 }
 .secondary-bg .section-description{
