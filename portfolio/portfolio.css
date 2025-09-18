@@ -1,0 +1,322 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* shared style */
+.text-primary
+{
+    color: #FD6E0A ;
+}
+
+/* header */
+
+.header
+{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* nav style */
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+}
+
+.nav-title
+{
+    font-weight: 800;
+    font-size: 45px;
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 51px;
+    
+}
+nav ul a{
+    text-decoration: none;
+    
+}
+
+.dark-2
+{
+    color: #474747;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+}
+
+.btn-primary
+{
+    background-color:#FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size:20px;
+    border-radius: 5px;
+    padding: 17px 35px 17px 35px ;
+    height: 64px;
+    /* width: 150px; */
+    border: none;
+     /* white-space: nowrap;  */
+     cursor: pointer;
+    
+}
+
+
+.banner .btn-color{
+    background-color: #FFF8F3;
+    color: #FD6E0A;
+    border: solid #FD6E0A 1px;
+    font-weight: bold;
+    font-size:20px;
+    border-radius: 5px;
+    padding: 17px 35px 17px 35px ;
+    height: 64px;
+}
+
+
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 35px 0px 230px;
+}
+.banner-greeting
+{
+    font-weight: 600;
+    font-size: 45px;
+   
+}
+.banner-title
+{    
+    font-weight: bold;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+
+
+.banner-description
+{
+    font-size: 18px;
+    font-weight: 100px;
+    margin-bottom: 30px;
+}
+
+.banner .banner-img{
+    height: 800px;
+    width: auto;
+}
+
+.btn-info{
+    display: flex;
+   gap: 20px;
+}
+
+.section-title
+{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+    /* text-align: center; */
+    
+
+}
+
+.section-description{
+    color: #757575;
+    font-size: 18px;
+}
+
+.secondary-bg{
+    background-color:#c4e7fd ;
+
+}
+/* about section */
+
+.about{
+    border-radius: 10px;
+     padding: 131px 157px;
+     text-align: center;
+     margin-top: 10px;
+}
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.item-title
+{
+    color: #757575;
+    font-size: 20px;
+
+}
+.item-description{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.about-box{
+    border: solid 2px;
+    background-color: white;
+    
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* what i do */
+/* Skill section */
+.skill-content{
+    text-align: center;
+    
+}
+
+.skill-content h1
+{
+    margin-bottom: 30px;
+}
+
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 50px;
+    height: 377px;
+    /* width: 267px; */
+    
+}
+
+
+.skill{
+    padding:30px;
+    box-shadow: 0px 6px 50px 0 rgba(0, 0, 0, 0.06);
+}
+
+/* Resume */
+
+
+.resume-container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+}
+
+.resume-coloum-title{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.experience-title{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+.experience-sub-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.experience-description{
+       color: #757575;
+
+}
+.resume h1{
+    margin-bottom: 100px;
+}
+
+.resume hr{
+    margin: 30px 0px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.resume .text-center{
+    margin-top: 50px;
+}
+
+.secondary-bg .section-title{
+    color: #181818;
+    font-size: 35px;
+    font-weight: bold;
+    /* text-align: left; */
+   
+}
+.secondary-bg .section-description{
+    color: #474747;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+    
+}
+.footer-coloum{
+    width: 50%;
+}
+.footer-coloum .section-title{
+    margin-bottom: 28px;
+}
+
+.icon{
+    display: flex;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+footer input[type="text"]
+{
+    width: 461px;
+    height: 64px;
+    margin-bottom: 24px;
+     padding: 18px 30px;
+     font-size: 18px;
+     color: #757575;
+}
+
+footer textarea{
+     width: 461px;
+     height: 180px;
+     /* height: auto; */
+     padding: 18px 30px;
+     font-size: 18px;
+     margin-bottom: 24px;
+     color: #757575;
+     
+}
+
+
